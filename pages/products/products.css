@@ -1,0 +1,114 @@
+#img{
+    width: 100%;
+}
+
+#li1{
+    color: hsl(4, 86%, 49%);
+}
+
+#box{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    justify-content: center;
+    direction: rtl;
+}
+
+.details{
+    font-size: 2vw;
+}
+
+#category{
+    font-size: 3vw;
+    margin-top: 1vw;
+    font-weight: bold;
+    background-color: hsl(49, 46%, 88%);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5vw;
+    margin-top: 2.5vw;
+    direction: ltr;
+}
+
+#img-heart-cart{
+    background-color: hsl(49, 46%, 88%);
+    border-radius: 1.5vw;   
+}
+
+#img_product{
+    width: 20vw;
+    padding: 1.5vw;
+}
+#img_product:hover{
+    transform: scale(1.1);
+}
+
+#name_product{
+    font-size: 1.3vw;
+}
+
+#price_product{
+    font-size: 1.3vw;
+    color: hsl(4, 84%, 37%);
+    font-weight: bold;
+}
+
+#add_heart{
+    background-color: hsl(49, 78%, 95%);
+    border-radius: 50%;
+    width: 2.5vw;
+    height: 2.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    position: absolute;
+    margin-left: 0.8vw;
+    margin-top: -19.5vw;
+}
+#add_heart:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    font-weight: bold;
+}
+#add_heart:active{
+    background-color: hsl(4, 84%, 37%);
+    color: hsl(49, 78%, 95%);
+}
+#add_cart{
+    color: hsl(49, 46%, 88%);
+    padding: 0.5vw;
+    border-bottom-left-radius: 1.5vw;
+    border-bottom-right-radius: 1.5vw;
+    font-size: 1.4vw;
+}
+#img-heart-cart:hover #add_cart
+{
+    background-color: hsl(4, 84%, 37%);
+    color: hsl(49, 78%, 95%);
+}
+#img-heart-cart:hover #mount{
+    display: inline-flex;
+    color: black;
+    border-color: hsl(49, 78%, 95%);
+}
+/* #img-heart-cart:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+} */
+
+#mount{
+    border-radius: 1vw;
+    margin-right: 1vw;
+    background-color: hsl(49, 46%, 88%);
+    color: black;
+    border: none;
+    text-align: center;
+    color: hsl(49, 46%, 88%);
+    width: 3.5vw;
+}
+#add{
+    display: inline-flex;
+}

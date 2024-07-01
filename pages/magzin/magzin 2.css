@@ -1,0 +1,20 @@
+#li3{
+    color: hsl(4, 86%, 49%);
+}
+#text_magzin{
+    margin: 25%;
+    margin-top: 3.5vw;
+    margin-top: 3vw;
+    margin-bottom: 7vw;
+    font-size: 1.35vw;
+    text-align: right;
+    direction: rtl;
+}
+
+#img_m{
+    max-width: 100%;
+    /* width: 100%; */
+}
+#mp4_m{
+    width: 100%;
+}

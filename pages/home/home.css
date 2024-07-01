@@ -1,0 +1,75 @@
+#main {
+    justify-items: center;
+    align-content: start;
+    background-color: hsl(4, 86%, 49%);
+    color: hsl(49, 78%, 95%);
+    text-align: center;
+    margin-bottom: 4vh;
+    border-bottom-left-radius:0.5vw;
+    border-bottom-right-radius:0.5vw;
+}
+
+#main>p{
+    font-size: 2.3vw;
+    margin-top: 1.5vw;
+    text-align: center;
+    align-items: center;
+}
+
+#kkk{
+    display: flex;
+    justify-content: right;
+}
+
+/* תווית שבה כתוב העמוד שבו נמצאים */
+#ticket{
+    background-color: hsl(4, 86%, 49%);
+    width: 20%;
+    height: 3vw;
+    position: absolute;
+    border-top-left-radius: 0.5vw;
+    border-bottom-left-radius: 0.5vw;
+    margin-top: 3vw;
+    align-items: center;
+    font-size: 2.5vw;
+    display: flex;
+    justify-content: center;
+}
+
+/* עיגול החץ */
+#circle{
+    width: 3vw;
+    position: absolute;
+    margin-top: -1.5vw;
+    text-align: center;
+    margin-left: -0.8vw;
+}
+
+/* גלריית החדשים */
+#gallery{
+    display: inline-flex;
+    justify-content: center;
+    gap: 1vw;
+    margin: 1.2vw;
+}
+#img_gallery{
+    background-color: hsl(49, 78%, 95%);
+    border-radius: 0.2vw;
+    display: flex;
+    justify-content: end;
+}
+#img_gallery:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+#pic{
+    width: 15vw;
+    margin: 1vw;
+}
+#pic:hover{
+    transform: scale(1.1);
+}
+#new{
+    position:absolute;
+    width: 6vw;
+    margin-right: -0.75vw;
+}

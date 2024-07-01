@@ -1,0 +1,47 @@
+#img{
+    width: 100%;
+}
+
+#li2{
+    color:hsl(4, 86%, 49%);
+}
+
+#box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center; 
+    margin-top: 2vw;  
+    direction: rtl;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 1vw;
+    justify-content: right;
+    align-items: end;
+    direction: ltr;
+}
+
+.card> img{
+    display: flex;
+    justify-content: center;
+    width: 31vw;
+    border-radius: 0.2vw;
+}
+
+.card:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#ticket{
+    background-color: hsl(4, 86%, 49%);
+    padding: 0.2vw;
+    padding-left: 0.4vw;
+    position: absolute;
+    border-top-left-radius: 0.3vw;
+    border-bottom-left-radius: 0.3vw;
+    align-items: center;
+    font-size: 1.5vw;
+    margin-top: 1.8vw;
+    color: hsl(49, 78%, 95%);
+}

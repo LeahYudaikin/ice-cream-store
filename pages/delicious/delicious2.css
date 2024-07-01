@@ -1,0 +1,69 @@
+#li2{
+    color: hsl(4, 86%, 49%);
+}
+main{
+    background-color: hsl(4, 86%, 49%);
+}
+
+#p{
+    font-size: 2vw;
+    color: hsl(12, 71%, 99%);
+    padding: 2.5vw;
+    text-align: right;
+    margin-left: 32%;
+}
+
+#recipe{
+    display: flex;    
+    background-color: hsl(49, 78%, 95%);
+    direction: rtl;
+}
+
+#img_recipe{
+    padding: 5vw;
+    padding-top: 4vw;
+    justify-content: right;
+}
+
+#imgRecipe{
+    border-radius:0.6vw;
+    width: 35vw;
+    max-height: 22vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, hsl(4, 86%, 49%) 0px 5px 10px -8px;
+}
+
+#recipe_p_c{
+    border-radius: 0.8vw;
+    padding: 2vw;
+    direction: rtl;
+    text-align: right;
+    margin-right: 2vw;
+}
+
+#bake_recipe{
+    margin-top: 2.3vw;
+}
+
+ul{
+    display: flex;
+    flex-direction:column-reverse;
+    padding: 0vw;
+    font-size: 1.5vw;
+    list-style-type: none;
+}
+
+#ul2{
+    list-style-type:disc;
+}
+
+h1{
+    font-size: 2.3vw;
+    font-weight: bold;
+}
+
+#special{
+    color: hsl(4, 86%, 49%);
+}
+
+
+

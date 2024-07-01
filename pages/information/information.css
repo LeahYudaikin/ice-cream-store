@@ -1,0 +1,24 @@
+#img{
+    width: 100%;
+}
+
+#text{
+    text-align: right;
+    direction: rtl;
+}
+
+#p{
+    font-size: 1.8vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+}
+
+span{
+    color: hsl(4, 86%, 49%);
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+#li5{
+    color: hsl(4, 86%, 49%);
+}

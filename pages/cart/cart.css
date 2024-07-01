@@ -1,0 +1,112 @@
+/* סל מוצרים */
+#contain{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    align-items: start;
+    margin-left: 5vw;
+}
+#Cart{
+    display: flex;
+    justify-content: center;
+    direction:rtl;
+    margin-top: 5vw;
+}
+#title_Cart{
+    display: block;
+    font-size: 3vw;
+    margin-top: 7vw;
+    background-color: hsl(49, 46%, 88%);
+    border-top: 0.15vw hsl(4, 84%, 37%) solid;
+    border-bottom: 0.15vw hsl(4, 84%, 37%) solid;
+}
+#titleCart{
+    display: none;
+    padding-top: 10vw;
+    font-size: 3vw;
+    text-align: center;
+    color: hsl(4, 84%, 37%);
+}
+#next{
+    font-size: 1.5vw;
+    color: hsl(4, 84%, 37%);
+}
+#tableCart{
+    width: 65vw;
+}
+tr{
+    margin-right: 1vw;
+}
+th, td{
+    border:0.2vw solid hsl(49, 46%, 88%);
+    border-left: none;
+    border-right: none;
+    text-align: right;
+    padding: 0.5vw;
+    padding-right: 2vw;
+    padding-left: 3vw;
+    font-size: 1.3vw;
+}
+th{
+    border-top: none;
+}
+
+#img_min{
+    background-color: hsl(49, 46%, 88%);
+    border-radius: 1vw;
+    width: 5vw;
+}
+#delete_cart:hover{
+    color: hsl(4, 84%, 37%);
+}
+
+#mount{
+    border-radius: 1vw;
+    margin-right: 1vw;
+    background-color: hsl(49, 46%, 88%);
+    color: black;
+    border: none;
+    text-align: center;
+    width: 3.5vw;
+    height: 2.5vw;
+    font-size: 1.2vw;
+}
+#tempSum_cart{
+    color: hsl(4, 84%, 37%);
+}
+
+
+#sum{
+  display: block;
+    background-color: hsl(49, 46%, 88%);
+    border-radius: 0.2vw;
+    margin-top: 7.85vw;
+    font-size: 1.3vw;
+    align-items: center;
+    padding: 1vw;
+    text-align: center;
+}
+#text{
+    font-weight: bold;
+    margin-top: 1vw;
+}
+p{
+    font-size: 0.8vw;
+}
+#sum_all{
+    color: hsl(4, 84%, 37%);
+    border-top: 0.1vw hsl(4, 84%, 37%) solid;
+}
+#submit{
+    width: 17vw;
+}
+#price{
+    margin-bottom: 0.8vw;
+}
+#sum_deliver{
+    border-top: 0.1vw hsl(4, 84%, 37%) solid;
+}
+#text_title{
+    color: hsl(4, 84%, 37%);
+    font-weight: bolder;
+}
+

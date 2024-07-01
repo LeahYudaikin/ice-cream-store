@@ -1,0 +1,56 @@
+#li4{
+    color: hsl(4, 86%, 49%);
+}
+
+#img{
+    width: 100%;
+}
+
+#box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center; 
+    margin-top: 2vw;  
+    margin-right: 16vw;
+    margin-left: 16vw;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 1vw;
+    justify-content: right;
+    text-align: right;
+    align-items: end;
+    border-radius: 0.2vw;
+    border-style: solid;
+    font-size: 1.4vw;
+    padding: 0.7vw;    
+    border-width: 0.25vw;
+}
+
+#answer{
+    display: none;
+    font-size: 1.2vw;
+    direction: rtl;
+}
+
+.card:active #answer{
+    display: block;
+}
+.card:active #icon{
+    color: hsl(49, 78%, 95%);
+}
+
+.card:active {
+    border-width: 0.5vw;
+}
+
+#x{
+    width: 3.5vw;
+}
+
+#icon{
+    margin-right: 48%;
+    font-size: 1.5vw;
+    color: hsl(49, 16%, 53%);
+}
