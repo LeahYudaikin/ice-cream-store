@@ -1,3 +1,5 @@
+📄 This README is also available in [Hebrew 🇮🇱](README.he.md)
+
 # 🍦 Shtrauss Ice Cream - Online Store
 
 This project is a front-end simulation of an online ice cream store, built with **JavaScript** and **CSS**. It showcases dynamic interactivity and responsive design to create a smooth and engaging user experience.
@@ -49,17 +51,6 @@ This project is designed as a learning tool to demonstrate the following:
 3. Double-click or open `home.html` in your preferred web browser.
 
 > No server setup required — runs entirely in the browser.
-
----
-
-## 🌍 Language Support
-
-A language toggle feature (English / Hebrew) is planned and can be added using a simple JavaScript function. To implement this:
-
-- Add a button labeled `עברית`
-- Use JavaScript to switch the text content direction (`rtl`) and replace strings
-
-Feel free to request this feature if you'd like it included in this README or UI.
 
 ---
 
