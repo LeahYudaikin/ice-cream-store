@@ -1,5 +1,3 @@
-📄 This README is also available in [Hebrew 🇮🇱](README.he.md)
-
 # 🍦 Shtrauss Ice Cream - Online Store
 
 This project is a front-end simulation of an online ice cream store, built with **JavaScript** and **CSS**. It showcases dynamic interactivity and responsive design to create a smooth and engaging user experience.
@@ -8,8 +6,8 @@ This project is a front-end simulation of an online ice cream store, built with 
 
 ## 📸 Example Screenshot
 
-![Example Screenshot](images/example.png)  
-*You can replace this image with a real screenshot from the site.*
+![image](https://github.com/user-attachments/assets/b625f715-9632-429d-a811-c335a7c7fd4c)
+
 
 ---
 
