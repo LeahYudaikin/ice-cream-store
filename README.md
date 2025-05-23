@@ -6,7 +6,7 @@ This project is a front-end simulation of an online ice cream store, built with 
 
 ## 📸 Example Screenshot
 
-![image](https://github.com/user-attachments/assets/b625f715-9632-429d-a811-c335a7c7fd4c)
+![image](https://github.com/user-attachments/assets/e08988c5-e4c3-4460-82b5-568974442410)
 
 
 ---
