@@ -1,3 +1,5 @@
+[Read this in Hebrew](README_HE.md)
+
 # 🍦 Shtrauss Ice Cream - Online Store
 
 This project is a front-end simulation of an online ice cream store, built with **JavaScript** and **CSS**. It showcases dynamic interactivity and responsive design to create a smooth and engaging user experience.
